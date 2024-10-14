@@ -1,54 +1,66 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
-    background-color: rgb(50, 51, 131);
-    color: aliceblue;
-
+    background-color: #1F2937;
+    padding: 35px;
 }
 
 .header-top {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-    gap: 50px;
-}
+    padding:
 
-
-.header-body {
-    display: flex;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-
-}
-
-img {
-    width: 100px;
-    height: auto;
 }
 
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
+    margin-left: 100px;
 }
 
 .header-body-text {
     font-size: 18px;
     color: #E5E7EB;
+
 }
+
+.header-body {
+    display: flex;
+    padding: 100px;
+    gap: 100px;
+
+}
+
+.header-body-left {
+    max-width: 300px;
+}
+
+.header-body-right {
+    max-height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: lightgrey
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+
 
 .title {
     font-size: 48px;
@@ -59,4 +71,18 @@ img {
 
 .links {
     font-size: small;
+    flex-shrink: 0;
+    margin-right: 70px;
+
+}
+
+button {
+    margin-top: 10px;
+    background-color: #3d76c5;
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+
 }
