@@ -40,7 +40,7 @@
 }
 
 .header-body-left {
-    max-width: 300px;
+    max-width: 500px;
 }
 
 .header-body-right {
@@ -107,14 +107,14 @@ button {
 .container {
     display: flex;
     text-align: center;
-    max-width: ;
+
     gap: 40px;
     margin-left: 150px;
 
 }
 
 .card {
-    max-width: 150px;
+    max-width: 250px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -150,13 +150,24 @@ button {
 
 .section3 {
     display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
-    text-align: center;
-    padding: 150px;
+    padding: 210px;
+    align-items: center;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    display: flex;
+    /* max-width: 700px; */
+    padding-left: 150px;
+}
+
+.author {
+    font-weight: 800;
+    text-align: right;
+    display: flex;
+    align-self: flex-end;
 }
