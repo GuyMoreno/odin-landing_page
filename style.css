@@ -171,3 +171,34 @@ button {
     display: flex;
     align-self: flex-end;
 }
+
+/* finished sec4 */
+.section4 {
+    padding: 85px 170px;
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    padding: 35px 75px;
+    border-radius: 10px;
+    justify-content: space-around;
+    gap: 70px;
+}
+
+.button-2 {
+    padding: 5px 15px;
+    border: 2px solid white;
+    border-radius: 12px;
+    color: white;
+}
+
+/* end sec4 */
+.footer {
+    background-color: #1F2937;
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+    font-size: 10px;
+}
